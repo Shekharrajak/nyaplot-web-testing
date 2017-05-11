@@ -1,0 +1,53 @@
+PATH
+  remote: .
+  specs:
+    nyaplot (0.1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bond (0.5.1)
+    coderay (1.1.1)
+    data_uri (0.1.0)
+    diff-lcs (1.3)
+    iruby (0.3)
+      bond (~> 0.5)
+      data_uri (~> 0.1)
+      mimemagic (~> 0.3)
+      multi_json (~> 1.11)
+    method_source (0.8.2)
+    mimemagic (0.3.2)
+    multi_json (1.12.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (12.0.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.5)
+  iruby
+  nyaplot!
+  pry
+  rake
+  rspec
+
+BUNDLED WITH
+   1.14.5
